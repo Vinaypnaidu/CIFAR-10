@@ -53,11 +53,11 @@ Before we begin writing the dataset class, it is important to understand the str
 #extract pickle files as specified in the CIFAR-10 website
 def unpickle(file):
     with open(file, 'rb') as fo:
-        dict = pickle.load(fo, encoding='bytes')
+        dict = pickle.load(fo, encoding = 'bytes')
     return dict
 ```
 
-The above function returns a dictionary from the pickle file. The train batches are named - `data_batch_1, data_batch_2, data_batch_3, data_batch_4, data_batch_5`. The test batch is named - `test_batch`. Let's understand more about these data batches and group them into a single batch to analyse. 
+The above function returns a dictionary from the pickle file. The train batches are named - `data_batch_1`, `data_batch_2`, `data_batch_3`, `data_batch_4`, `data_batch_5`. The test batch is named - `test_batch`. Let's understand more about these data batches and group them into a single batch to analyse. 
 
 
 ```python
@@ -302,7 +302,7 @@ train_set.plot(img, label)
 
 
     
-![png](output_32_1.png)
+![png](plots/output_32_1.png)
     
 
 
@@ -319,7 +319,7 @@ plt.show()
 
 
     
-![png](output_33_0.png)
+![png](plots/output_33_0.png)
     
 
 
@@ -579,11 +579,8 @@ plt.show()
 
 
     
-![png](output_46_0.png)
+![png](plots/output_46_0.png)
     
 
 
-
-```python
-
-```
+Thats it. I hope this tutorial was helpful in your journey of deep learning and PyTorch :) I would like to thank [Vishal R ](https://github.com/iVishalr) for his tutorial. 
