@@ -1,6 +1,6 @@
 # CIFAR-10 Image Classification
 
-The CIFAR-10 dataset is a good starting point for your deep learning journey, this notebook is written to help beginners learn how to train a ConvNet using PyTorch for image classification on the CIFAR-10 dataset. It goes through the details about how to write a custom dataset class, the model and the trainer class.
+The CIFAR-10 dataset is a good starting point for your deep learning journey, this notebook is written to help beginners learn how to train a ConvNet using PyTorch for image classification on the CIFAR-10 dataset. It goes through the details about how to write a custom dataset class, the model and the training loop.
 
 ### Importing Packages
 Start by importing all the necessary packages. They are imported separately because the jupyter notebook kernel dies sometimes when we import all the packages at once.
