@@ -583,7 +583,7 @@ plt.show()
     
 
 
-Congrats on finishing this project. I hope this tutorial was helpful in your journey of deep learning and PyTorch :) I would like to thank [Vishal R ](https://github.com/iVishalr) for his tutorial. Thanks to Kaggle for the GPU.
+That's it. Congrats on finishing this project. I hope this tutorial was helpful in your journey of deep learning and PyTorch :) I would like to thank [Vishal R ](https://github.com/iVishalr) for his tutorial. Thanks to Kaggle for the GPU.
 
 ### Citations
 
